@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksolanum=self.webpackChunksolanum||[]).push([[520],{520:(e,t,s)=>{s.d(t,{default:()=>n});const n=async()=>{const e=new IntersectionObserver(e=>{e.forEach(e=>{e.target.toggleAttribute("data-show",e.isIntersecting)})},{threshold:.65});document.querySelectorAll(".convictions-item").forEach(t=>e.observe(t))}}}]);
