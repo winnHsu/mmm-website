@@ -1120,6 +1120,10 @@ details[open] .button .phone-code-arrow:not(:has(svg))::after {
 	margin-bottom: .5rem
 }
 
+a.member-card-function {
+	color: var(--thm-acnt-2);
+}
+
 .member-card-function {
 	text-transform: uppercase;
 	font-family: var(--ff-secondary);
@@ -2354,7 +2358,7 @@ html[data-theme=light] .header-theme-icon .icon:last-child {
 	margin-top: 7.5rem;
 	flex-direction: column;
 	justify-content: space-between;
-	background: #001539;
+	background: var(--darkblue);;
 	color: var(--thm-txt)
 }
 
@@ -2438,7 +2442,7 @@ html[data-theme=light] .header-theme-icon .icon:last-child {
 .footer-logo-face {
 	position: absolute;
 	border: 1.5px solid var(--thm-acnt);
-	background: #001539
+	background: var(--darkblue);
 }
 
 .footer-logo-face:is(.footer-logo-face--front, .footer-logo-face--back) {
@@ -3368,7 +3372,8 @@ html[data-theme=light] .header-theme-icon .icon:last-child {
 }
 
 .points-of-interest-info-text,
-.points-of-interest-image-text {
+.points-of-interest-image-text,
+.goals-subtitle.title-l {
 	margin-top: .5rem;
 	color: color-mix(in srgb, var(--thm-txt), transparent 36%)
 }
@@ -3447,6 +3452,10 @@ html[data-theme=light] .header-theme-icon .icon:last-child {
 
 .points-of-interest-image-tooltip[inert] {
 	opacity: 0
+}
+
+.showCard.points-of-interest-image-tooltip[inert] {
+	opacity: 1
 }
 
 .points-of-interest-image-title {
